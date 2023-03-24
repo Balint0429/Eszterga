@@ -3,8 +3,8 @@
 * Author: Laczkó Bálint
 * Copyright: 2023, Laczkó Bálint
 * Group: Szoft I-2-N
-* Date: 2021-02-23
-* Github: https://github.com/Balint0429/
+* Date: 2021-03-24
+* Github: https://github.com/Balint0429/Eszterga.git
 * Licenc: GNU GPL
 */
 var hosszInput = document.querySelector('#hossz');
