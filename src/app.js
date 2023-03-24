@@ -22,10 +22,10 @@ function inputCon() {
     let elotolas = Number(elotolasInput.value);    
     let fordulat = Number(fordulatszamInput.value);
     let ido = calcIdo(hossz,elotolas,fordulat);
-    idoInput.value = "" + ido;
+    idoInput.value = "A megmunkálási idő: " + ido +"perc";
 
 }
 
 function calcIdo(hossz,elotolas,fordulat) {
-    return hossz + elotolas ;
+    return hossz/(elotolas*fordulat) ;
 }
